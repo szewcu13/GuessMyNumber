@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pl">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+        <script
+			src="https://kit.fontawesome.com/d5419b392a.js"
+			crossorigin="anonymous"
+		></script>
+        <link rel="stylesheet" href="./css/style.css">
+		<title>Document</title>
+	</head>
+	<body>
+        <header>
+            <h1>Zgadnij moją liczbę!</h1>
+            <p class="between">(Pomiędzy 1 a 20)</p>
+            <button class="btn again">Powtórz!</button>
+            <div class="number">40</div>
+        </header>
+        <main>
+            <section class="left">
+                <input type="number" class="guess">
+                <button class="btn check">Sprawdź!</button> 
+            </section>
+            <section class="right">
+                <p class="message">Zacznij zgadywać..</p>
+                <p class="label-score"><i class="fa-solid fa-star"></i> Wynik: <span class="score">20</span></p>
+                <p class="label-highscore"><i class="fa-solid fa-medal"></i> Najlepszy wynik: <span class="highscore">0</span></p>
+            </section>
+        </main>
+
+
+        <script src="./js/main.js"></script>
+    </body>
+</html>
